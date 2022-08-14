@@ -32,7 +32,7 @@ header {
 }
 
 #wrapper {
-    height: 260px;
+    height: fit-content;
     background-color: rgb(245, 248, 245);
     margin: 0;
     font-size: 16px;

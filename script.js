@@ -10,6 +10,6 @@ let hello3 = document.querySelector(".siemano3")
 convertEl.addEventListener("click", function() {
         let base = inputEl.value
         hello1.textContent = `${base} meters = ${base * meter.toFixed(3)} feets | ${base * meter.toFixed(3)} feets = ${base} meter`
-        hello2.textContent = `${base} liters = ${base * liter.toFixed(3)} gallons | ${base * liter.toFixed(3)} liters = ${base} gallons`
+        hello2.textContent = `${base} liters = ${base * liter.toFixed(3)} gallons | ${base * liter.toFixed(3)} gallons = ${base} liters`
         hello3.textContent = `${base} kilos = ${base * kilogram.toFixed(3)} pounds | ${base * kilogram.toFixed(3)} pounds = ${base} kilos`
 })
